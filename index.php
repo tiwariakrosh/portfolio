@@ -250,7 +250,7 @@
 						<input type="text" name="name" placeholder="Your name" required><br>
 						<input type="email" name="email" placeholder="Email address" required><br>
 						<br><textarea rows="5" name="message" placeholder="Write your message here" cols="30" required></textarea><br>
-						<input type="hidden" name="_next" value="https://akroshtiwari.com.np/page/thankyou.php">
+						<input type="hidden" name="_next" value="https://akrosh-portfolio.herokuapp.com/page/thankyou.php">
 						<button type="submit">Send </button>
 					</form>
 				</div>
