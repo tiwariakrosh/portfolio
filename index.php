@@ -19,18 +19,18 @@
 	<section id="header" class="header">
 		<nav class="navbar" id="navbar">
 			<a href="#hero" class="nav-logo"><span>आ</span>क्रोश</a>
-				<ul class="nav-menu">
-					<li class="nav-item"><a href="#hero" class="nav-link">Home</a></li>
-					<li class="nav-item"><a href="#services" class="nav-link">Services</a></li>
-					<li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
-					<li class="nav-item"><a href="#about" class="nav-link">About</a></li>
-					<li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
-					<li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
-				</ul>
+			<ul class="nav-menu">
+				<li class="nav-item"><a href="#hero" class="nav-link">Home</a></li>
+				<li class="nav-item"><a href="#services" class="nav-link">Services</a></li>
+				<li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+				<li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+				<li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+				<li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+			</ul>
 			<div class="hamburger">
 				<span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
+				<span class="bar"></span>
+				<span class="bar"></span>
 			</div>
 		</nav>
 	</section>
@@ -115,28 +115,56 @@
 				</div>
 				<div class="project-caption">
 					<h2>MY portfolio.</h2>
-					<P>In this website used Html, CSS, Javascript and media queries. It is a complete responsive,
+					<P>This is my personal portfolio. In this portfolio website used Html, CSS, Javascript and media queries. It is a complete responsive,
 						user-friendly and cross browser
 						compatibility supports.</P>
 					<div class="see-more">
-						<a href="#" class="btn">source code on git</a>
+						<a href="https://github.com/tiwariakrosh/portfolio" class="btn">source code on git</a>
 					</div>
 				</div>
 			</section>
 			<section class="project-container">
 				<div class="project-element js-scroll slide-right">
-					<img src="./css/img/project1food.JPG" alt="project-image" loading="lazy">
+					<img src="./css/img/project-dish-search-app.PNG" alt="project-image" loading="lazy">
 				</div>
 				<div class="project-caption">
 					<h2>Dish searching App.</h2>
-					<p>In this website used Reactjs and API. It is a complete responsive, user-friendly and cross
+					<p>In this website used HTML, CSS, Reactjs and API. It is a complete responsive, user-friendly and cross
 						browser
 						compatibility supports.
 					</p>
 					<div class="see-more">
-						<a href="#" class="btn">source code on git</a>
+						<a href="https://github.com/tiwariakrosh/dish-search-app" class="btn">source code on git</a>
 					</div>
-					
+
+				</div>
+			</section>
+			<section class="project-container">
+				<div class="project-element js-scroll slide-left">
+					<img src="./css/img/project-weather-app.PNG" alt="project-image" loading="lazy">
+				</div>
+				<div class="project-caption">
+					<h2>Weather App.</h2>
+					<P>In this Weather application website used Html, CSS, ReactJS and some media queries and API. It is a complete responsive,
+						user-friendly and cross browser
+						compatibility supports.</P>
+					<div class="see-more">
+						<a href="https://github.com/tiwariakrosh/Weather-App" class="btn">source code on git</a>
+					</div>
+				</div>
+			</section>
+			<section class="project-container">
+				<div class="project-element js-scroll slide-left">
+					<img src="./css/img/project-blog.PNG" alt="project-image" loading="lazy">
+				</div>
+				<div class="project-caption">
+					<h2>Blog Website.</h2>
+					<P>In this blog website used Html, CSS, Javascript and media queries. It is a complete responsive,
+						user-friendly and cross browser
+						compatibility supports.</P>
+					<div class="see-more">
+						<a href="https://github.com/tiwariakrosh/Blog-Website" class="btn">source code on git</a>
+					</div>
 				</div>
 			</section>
 		</div>
@@ -148,24 +176,25 @@
 			<div class="col-right">
 				<h1 class="section-title">About<span>me</span></h1>
 				<div class=" js-scroll slide-left">
-				<div class="about-img">
-					<img src="./css/img/hero-bg2.png" height="100px" width="100px" alt="about profile" />
+					<div class="about-img">
+						<img src="./css/img/hero-bg2.png" height="100px" width="100px" alt="about profile" />
+					</div>
+					<p>
+						Hi, i am a <strong>Akrosh Tiwari</strong>. I study Bachelor in Computer Science and information
+						technology(BSc.CSIT) at NIST College
+						(Tribhuvan University Affiliated).
+						I am a highly self-motivated Web Developer with 2 years of commercial experience who spends most
+						of
+						his time building applications. I create successful
+						websites that are fast, easy to use, and built with best practices software, and keeping myself
+						up-to-date with the latest technologies.<br>
+						If you think I am eligible to join your team to finish up your project, please reach out to me
+						through any medium and I will reply back ASAP.
+						Do you have any interesting ideas on your mind? Do you need someone to collaborate with you in
+						bringing ideas into life? Hit me up!!
+					</p>
+					<a href="./css/file/akrosh-CV.pdf" target="_blank" class="button">Download Resume</a>
 				</div>
-				<p>
-					Hi, i am a <strong>Akrosh Tiwari</strong>. I study Bachelor in Computer Science and information
-					technology(BSc.CSIT) at NIST College
-					(Tribhuvan University Affiliated).
-					I am a highly self-motivated Web Developer with 2 years of commercial experience who spends most of
-					his time building applications. I create successful
-					websites that are fast, easy to use, and built with best practices software, and keeping myself
-					up-to-date with the latest technologies.<br>
-					If you think I am eligible to join your team to finish up your project, please reach out to me
-					through any medium and I will reply back ASAP.
-					Do you have any interesting ideas on your mind? Do you need someone to collaborate with you in
-					bringing ideas into life? Hit me up!!
-				</p>
-				<a href="./css/file/akrosh-CV.pdf" target="_blank" class="button">Download Resume</a>
-			</div>	
 			</div>
 		</div>
 	</section>
@@ -175,61 +204,61 @@
 		<div class="skills">
 			<h1 class="section-title">Skill<span>'S</span></h1>
 			<div class=" js-scroll slide-left">
-			<div class="progress-bar-container">
-				<h2>HTML</h2>
-				<div class="progress-bar ">
-					<span class="percentage html"></span>
+				<div class="progress-bar-container">
+					<h2>HTML</h2>
+					<div class="progress-bar ">
+						<span class="percentage html"></span>
+					</div>
+				</div>
+				<div class="progress-bar-container">
+					<h2>CSS</h2>
+					<div class="progress-bar">
+						<span class="percentage css"></span>
+					</div>
+				</div>
+				<div class="progress-bar-container">
+					<h2>JavaScript</h2>
+					<div class="progress-bar">
+						<span class="percentage javascript"></span>
+					</div>
+				</div>
+				<div class="progress-bar-container">
+					<h2>ReactJs</h2>
+					<div class="progress-bar">
+						<span class="percentage reactjs"></span>
+					</div>
+				</div>
+				<div class="progress-bar-container">
+					<h2>Bootstrap</h2>
+					<div class="progress-bar">
+						<span class="percentage bootstrap"></span>
+					</div>
+				</div>
+				<div class="progress-bar-container">
+					<h2>Git</h2>
+					<div class="progress-bar">
+						<span class="percentage git"></span>
+					</div>
+				</div>
+				<div class="progress-bar-container">
+					<h2>WordPress</h2>
+					<div class="progress-bar">
+						<span class="percentage wordpress"></span>
+					</div>
+				</div>
+				<div class="progress-bar-container">
+					<h2>PHP</h2>
+					<div class="progress-bar">
+						<span class="percentage php"></span>
+					</div>
+				</div>
+				<div class="progress-bar-container">
+					<h2>Laravel</h2>
+					<div class="progress-bar">
+						<span class="percentage laravel"></span>
+					</div>
 				</div>
 			</div>
-			<div class="progress-bar-container">
-				<h2>CSS</h2>
-				<div class="progress-bar">
-					<span class="percentage css"></span>
-				</div>
-			</div>
-			<div class="progress-bar-container">
-				<h2>JavaScript</h2>
-				<div class="progress-bar">
-					<span class="percentage javascript"></span>
-				</div>
-			</div>
-			<div class="progress-bar-container">
-				<h2>ReactJs</h2>
-				<div class="progress-bar">
-					<span class="percentage reactjs"></span>
-				</div>
-			</div>
-			<div class="progress-bar-container">
-				<h2>Bootstrap</h2>
-				<div class="progress-bar">
-					<span class="percentage bootstrap"></span>
-				</div>
-			</div>
-			<div class="progress-bar-container">
-				<h2>Git</h2>
-				<div class="progress-bar">
-					<span class="percentage git"></span>
-				</div>
-			</div>
-			<div class="progress-bar-container">
-				<h2>WordPress</h2>
-				<div class="progress-bar">
-					<span class="percentage wordpress"></span>
-				</div>
-			</div>
-			<div class="progress-bar-container">
-				<h2>PHP</h2>
-				<div class="progress-bar">
-					<span class="percentage php"></span>
-				</div>
-			</div>
-			<div class="progress-bar-container">
-				<h2>Laravel</h2>
-				<div class="progress-bar">
-					<span class="percentage laravel"></span>
-				</div>
-			</div>
-		</div>
 		</div>
 	</section>
 	<!-- End skill section -->
@@ -239,9 +268,8 @@
 		<h1 class="section-title">Contact<span>Me</span></h1>
 		<div class="wrapper js-scroll slide-left">
 			<div class="contact-map">
-				<iframe
-					src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28280.085086665087!2d85.54102043392317!3d27.624187250874396!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb08e1e0b24703%3A0xbfe3729cdad70132!2sDhulikhel!5e0!3m2!1sen!2snp!4v1620041239905!5m2!1sen!2snp"
-					width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28253.844100428327!2d85.36262138705692!3d27.72560569818217!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb1bbeb021a8c3%3A0xf5da322eefd636cd!2sJorpati%2C%2044600!5e0!3m2!1sen!2snp!4v1631472782848!5m2!1sen!2snp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy">
+				</iframe>
 			</div>
 			<div class="contact-form">
 				<div class="send-form">
@@ -250,7 +278,7 @@
 						<input type="text" name="name" placeholder="Your name" required><br>
 						<input type="email" name="email" placeholder="Email address" required><br>
 						<br><textarea rows="5" name="message" placeholder="Write your message here" cols="30" required></textarea><br>
-						<input type="hidden" name="_next" value="https://akrosh-portfolio.herokuapp.com/page/thankyou.php">
+						<input type="hidden" name="_next" value="https://akroshtiwari.herokuapp.com/page/thankyou.php">
 						<button type="submit">Send </button>
 					</form>
 				</div>
@@ -258,8 +286,7 @@
 					<h2>
 						Direct Contact me:
 					</h2>
-					<p class="direct"><i class="far fa-envelope"></i>Email:metiwariakrosh@gmail.com</br><i
-						class="fas fa-users"></i>Website:www.akroshtiwari.com.np<br>
+					<p class="direct"><i class="far fa-envelope"></i>Email:metiwariakrosh@gmail.com</br><i class="fas fa-users"></i>Website:https://akroshtiwari.herokuapp.com<br>
 						<i class="fas fa-phone"></i>Phone_No:+977-9861498184<br>
 					</p>
 				</div>
@@ -280,20 +307,19 @@
 			<h3>connect with me on social media</h3>
 			<div class="social-icon">
 				<div class="social-item">
-					<a href="https://www.facebook.com/akrosh.tiwari.98"><i class="fab fa-facebook-f"
-							style="font-size:35px;color:#4267B2;"></i></a>
+					<a href="https://www.facebook.com/akrosh.tiwari.98"><i class="fab fa-facebook-f" style="font-size:35px;color:#4267B2;"></i></a>
 				</div>
 				<div class="social-item">
-					<a href="https://www.instagram.com/iam_akrosh_tiwari/"><i class="fab fa-instagram"
-							style="font-size:35px;color:#8134AF;"></i></a>
+					<a href="https://www.instagram.com/iam_akrosh_tiwari/"><i class="fab fa-instagram" style="font-size:35px;color:#8134AF;"></i></a>
 				</div>
 				<div class="social-item">
-					<a href="https://twitter.com/AkroshTiwari2"><i class="fab fa-twitter"
-							style="font-size:35px;color:#1DA1F2;"></i></a>
+					<a href="https://twitter.com/AkroshTiwari2"><i class="fab fa-twitter" style="font-size:35px;color:#1DA1F2;"></i></a>
 				</div>
 				<div class="social-item">
-					<a href="https://www.linkedin.com/in/akrosh-tiwari-9a1a42167/"><i class="fab fa-linkedin-in"
-							style="font-size:35px;color:#0e76a8;"></i></a>
+					<a href="https://www.linkedin.com/in/akrosh-tiwari-9a1a42167/"><i class="fab fa-linkedin-in" style="font-size:35px;color:#0e76a8;"></i></a>
+				</div>
+				<div class="social-item">
+					<a href="https://github.com/tiwariakrosh"><i class="fab fa-github" style="font-size:35px;color:#171515;"></i></a>
 				</div>
 			</div>
 			<p> Copyright &#169; 2021 Akrosh Tiwari &#169;.All rights reserved</p>
@@ -303,4 +329,5 @@
 	<script src="./js/portfoliio-app.js"></script>
 	<script src="https://smtpjs.com/v3/smtp.js"></script>
 </body>
+
 </html>

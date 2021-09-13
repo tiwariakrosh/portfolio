@@ -389,6 +389,12 @@ p {
 .project-container:nth-of-type(2) {
   background-color: #201f20;
 }
+.project-container:nth-of-type(3) {
+  background-color: #201f20;
+}
+.project-container:nth-of-type(4) {
+  background-color: #201f20;
+}
 
 .project-container:nth-of-type(even) {
   flex-direction: row-reverse;
@@ -988,7 +994,15 @@ button{
     margin: 10px 0;
   }
 }
-
+ 
+.home{
+  top: 30px;
+  left: 30px;
+  height: 20px;
+  width: 40px;
+  background-color: #46b3e6;
+  border-radius: 5px solid red;
+}
 /* End Media Query For Tablet */
   /* Media query for toogle bar */
   @media only screen and (max-width: 1000px){
