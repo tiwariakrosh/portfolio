@@ -73,14 +73,14 @@ p {
   width: 0%;
 }
 /* Header section */
-.navbar{
-    z-index: 3;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0.7rem 2.2rem;
-    position: fixed;
-    width: 100vw;
+.navbar {
+  z-index: 3;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 4.2rem;
+  position: fixed;
+  width: 100vw;
 }
 .hamburger {
   display: none;
@@ -97,27 +97,34 @@ p {
 }
 
 .nav-menu {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .nav-item {
-    margin-left: 5rem;
+  margin-left: 4rem;
 }
 
-.nav-link{
-    font-size: 2.6rem;
-    font-weight: 400;
-    color: #fafafa;
-    animation: movedown 1s linear 1;
-    visibility: hidden;
-    animation-delay: 1s;
-    animation-fill-mode: forwards;
+a:hover{
+  opacity: 0.8;
+}
+.nav-item a:active {
+  color: #2abba7;
+  text-decoration: none;
+}
+.nav-link {
+  font-size: 2.6rem;
+  font-weight: 400;
+  color: #fafafa;
+  animation: movedown 1s linear 1;
+  visibility: hidden;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
 }
 
-.nav-link:hover{
-    color: #46b3e6;
+.nav-link:hover {
+  color: #46b3e6;
 }
 
 .nav-logo {
@@ -169,7 +176,7 @@ p {
   left: 0;
   height: 100%;
   width: 0;
-  background-color: #F25ac9;
+  background-color: #f25ac9;
   animation: text_reveal_box 1s ease;
   animation-delay: 0.5s;
 }
@@ -341,6 +348,8 @@ p {
 .project-container {
   display: flex;
   width: 75vw;
+  box-shadow: 10px 10px 20px #232323;
+  border-radius: 12px;
   height: 58.5vh;
   overflow: hidden;
   margin-top: 5rem;
@@ -364,9 +373,8 @@ p {
   padding-left: 8px;
   padding-top: 30px;
   color: #a0bddf;
-
 }
-.see-more{
+.see-more {
   min-height: 7vh;
   height: 3.5rem;
   margin: 20px 0;
@@ -377,7 +385,7 @@ p {
   justify-content: center;
   align-items: center;
 }
-.see-more .btn{
+.see-more .btn {
   color: #fafafa;
   font-size: 1.3em;
 }
@@ -440,6 +448,7 @@ p {
 #about .col-right p {
   margin-bottom: 20px;
   font-size: 2.2rem;
+  font-family: serif;
 }
 
 #about .col-right .button {
@@ -518,36 +527,36 @@ p {
 }
 
 .html {
-  width: 75%;
+  width: 85%;
 }
 
 .css {
-  width: 90%;
+  width: 80%;
 }
 
 .javascript {
-  width: 65%;
+  width: 60%;
 }
 
 .reactjs {
-  width: 50%;
+  width: 40%;
 }
 
 .bootstrap {
-  width: 60%;
+  width: 70%;
 }
 
 .git {
-  width: 70%;
+  width: 65%;
 }
 .wordpress {
-  width: 60%;
+  width: 50%;
 }
 .php {
-  width: 45%;
+  width: 35%;
 }
 .laravel {
-  width: 40%;
+  width: 30%;
 }
 
 /* contact Section */
@@ -585,17 +594,21 @@ p {
   margin-right: auto;
   width: 40vw;
 }
-input{
+input {
   height: 3.5rem;
+  border-radius: 7px;
+  box-shadow: 2px 2px 2px rgb(48, 48, 48);
   width: 30vw;
   margin: 10px 0;
 }
-::placeholder{
+::placeholder {
   padding: 7px;
 }
-textarea{
+textarea {
   height: auto;
   width: 30vw;
+  border-radius: 7px;
+  box-shadow: 2px 2px 2px rgb(44, 44, 44);
 }
 
 button {
@@ -603,24 +616,32 @@ button {
   width: 8em;
   font-size: 1.5em;
   font-weight: 600;
+  border-radius: 7px;
   color: #fafafa;
   background-color: #485563;
   margin: 10px 0;
 }
 
 button:hover {
-  background-color: #5a6f85;
+  background-color: #262a2e;
   color: #ddd;
 }
-.contact-section h2{
-  color: #ccc;
+form button i{
+  margin-left: 7px;
+}
+.contact-section h2 {
+  color:#49abff;
   font-size: 2.5em;
 }
-.direct{
+.direct {
   line-height: 1.5;
-  font-size: 1.7em;
+  font-size: 1.5em;
 }
-
+.direct i{
+  font-size: 2rem;
+  margin-right: 5px;
+  color: #49abff;
+}
 /*End contact Section */
 
 /* Footer */
@@ -729,12 +750,12 @@ button:hover {
   }
 }
 /* Nav-items move down */
-@keyframes movedown{
-  0%{
+@keyframes movedown {
+  0% {
     transform: translateY(-100px);
     visibility: visible;
   }
-  100%{
+  100% {
     transform: translateY(0);
     visibility: visible;
   }
@@ -797,7 +818,7 @@ button:hover {
     width: 100vw;
     height: autio;
   }
-  .hero-text{
+  .hero-text {
     top: 200px;
     left: 30px;
   }
@@ -964,20 +985,20 @@ button:hover {
     justify-content: center;
     padding: 15px 10px 0;
   }
-  .contact-form{
-    width: 80vw;
+  .contact-form {
+    width: 85vw;
     margin-left: auto;
     margin-right: auto;
   }
-input{
-  width: 70vw;
-}
-textarea{
-  width: 70vw;
-}
-button{
-  width: 35vw;
-}
+  input {
+    width: 70vw;
+  }
+  textarea {
+    width: 70vw;
+  }
+  button {
+    width: 35vw;
+  }
 
   /* End contact  */
 
@@ -994,8 +1015,8 @@ button{
     margin: 10px 0;
   }
 }
- 
-.home{
+
+.home {
   top: 30px;
   left: 30px;
   height: 20px;
@@ -1004,49 +1025,48 @@ button{
   border-radius: 5px solid red;
 }
 /* End Media Query For Tablet */
-  /* Media query for toogle bar */
-  @media only screen and (max-width: 1000px){
-    .navbar{
-      height: 5rem;
-    }
-    .nav-menu {
-      position: fixed;
-      left: -100%;
-      top: 5rem;
-      flex-direction: column;
-      background-color: rgb(56, 56, 59);
-      width: 100%;
-      border-radius: 10px;
-      text-align: center;
-      transition: 0.3s;
-      box-shadow:
-          0 10px 27px rgba(100, 94, 94, 0.05);
+/* Media query for toogle bar */
+@media only screen and (max-width: 1000px) {
+  .navbar {
+    height: 5rem;
   }
-  
+  .nav-menu {
+    position: fixed;
+    left: -100%;
+    top: 5rem;
+    flex-direction: column;
+    background-color: rgb(56, 56, 59);
+    width: 100%;
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.3s;
+    box-shadow: 0 10px 27px rgba(100, 94, 94, 0.05);
+  }
+
   .nav-menu.active {
-      left: 0;
+    left: 0;
   }
-  
+
   .nav-item {
-      margin: 2.5rem 0;
-      width: 100%;
+    margin: 2.5rem 0;
+    width: 100%;
   }
   .hamburger {
-      display: block;
-      cursor: pointer;
+    display: block;
+    cursor: pointer;
   }
   .hamburger.active .bar:nth-child(2) {
     opacity: 0;
   }
-  
+
   .hamburger.active .bar:nth-child(1) {
     transform: translateY(8px) rotate(45deg);
   }
-  
+
   .hamburger.active .bar:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
   }
-  }
+}
 /* Media Query For Desktop */
 @media only screen and (min-width: 800px) {
   /* End header */
